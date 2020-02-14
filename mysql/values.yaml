@@ -1,5 +1,5 @@
 image: 
   name: muralidhar123/dbmysql
-  tag: v18
+  tag: v24
 secret:
      passwd: root

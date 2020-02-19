@@ -19,9 +19,9 @@ spec:
         ports:
         - containerPort: 3306
         env:
-        - name: mysql_root_password
+        - name: MYSQL_ROOT_PASSWORD
           valueFrom:
             secretKeyRef:
               name: mysql-secret
-              key: {{ .Values.secret.passwd }}
+              key: password
                   
